@@ -31,6 +31,29 @@ nav ul li a {
     font-family: 'Raleway', sans-serif;
 }
 
+#barra {
+    color: #fff;
+    float: right;
+    padding: 0.7em 0.2em 0.2em 0.5em;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+#barra:hover {
+    opacity: 0.5;
+}
+
+.invisible {
+    display: none;
+}
+
+nav#contenedor-menu-responsive ul li {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 1em;
+}
+
 header {
     background: url("../img/img-1.jpg");
     background-size: cover;
