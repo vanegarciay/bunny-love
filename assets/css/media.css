@@ -5,6 +5,12 @@
     #contenedor-menu-responsive {
         display: block;
     }
+    header div h1 {
+        font-size: 2em;
+    }
+    header > div {
+        margin: 2em;
+    }
 }
 
 @media (min-width: 800px) {
