@@ -1,0 +1,140 @@
+body {
+    background-color: #ECF7FB;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background: #037F99;
+}
+
+nav img {
+    max-width: 176px;
+    max-height: 94px;
+}
+
+nav ul {
+    text-align: right;
+    padding: 2em 0; 
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background: url("../img/img-1.jpg");
+    background-size: cover;
+}
+
+header > div {
+    background-color: rgba(3, 127, 153, 0.8);
+    margin: 5em;
+    text-align: center;
+    padding: 2em;
+}
+
+header div h1 {
+    font-size: 5em;
+    color: #FF7673;
+    padding: 0.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header div h2 {
+    color: white;
+    font-style: italic;
+    padding: 0.5em 0.5em 2em 0.5em;
+    font-size: 0.9em;
+    font-weight: bold;
+    word-spacing: 1.1em;
+}
+
+section img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+} 
+
+section#fashion {
+    background: #FFF;
+    padding-bottom: 1em;
+}
+
+section#fashion > div {
+    background-color: #fff;
+}
+
+section#fashion > div p, section#fashion > div h1  {
+    background-color: #037F99;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    line-height: 2em;
+}
+
+section#fashion > div img {
+    background-color: #037F99;
+}
+
+section#fashion > div p {
+    color: whitesmoke;
+    padding-bottom: 3em; 
+}
+
+section#fashion > div h1 {
+    color: #ff7673;
+    font-family: Arial,sans-serif;
+}
+
+section#news {
+    background-color: #037F99;
+}
+
+section#news > div {
+    background-color: #ECF7FB;
+    padding: 0;
+    margin: 0;
+}
+
+section#news > div input {
+    padding: 1em;
+}
+
+section#news > div input::placeholder {
+    color: gray;
+}
+
+section#news > div iframe {
+    width: 100%;
+}
+
+section#rabbit {
+    background: url("../img/bunny-head.png") repeat-x;
+    background-size: contain;
+    height: 6em;
+    margin: 0.5em 0;
+}
+
+footer {
+    background-color: #037F99;
+    text-align: center;
+    padding: 3em;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.round {
+    border-radius: 1em;
+}
